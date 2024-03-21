@@ -1,9 +1,15 @@
-import Footer from "./Footer.jsx"
+import Footer from "./components/Footer.jsx";
+import Home from "./components/Home.jsx";
+import { Navbar } from "./components/Navbar.jsx";
+
 function App() {
-    return <div>
-    <h1>Esta es la App</h1>
-    <Footer/>
+  return (
+    <div>
+      <Navbar />
+      <Home />
+      <Footer />
     </div>
+  );
 }
 
-export default App
+export default App;
