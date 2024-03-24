@@ -3,7 +3,7 @@ import ProductCard from "../../common/productCard/ProductCard";
 const ItemListContainer = () => {
   return (
     <div>
-      <h1>Bienvenidos a mi tienda</h1>
+      <h1>Bienvenidos a Movie Store</h1>
       <div
         style={{
           width: "100%",

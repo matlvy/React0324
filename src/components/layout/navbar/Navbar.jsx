@@ -2,13 +2,29 @@ import { BsCart } from "react-icons/bs";
 export const Navbar = () => {
   return (
     <div>
-      <h3>Logo</h3>
+      <h3>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThycDRtdCzjtxyuEonINsqR359FIHP-fixQA&usqp=CAU"
+          alt=""
+        />
+      </h3>
       <ul>
         <li>Todas</li>
-        <li>Urbanas</li>
-        <li>Deportivas</li>
+        <li>Accion</li>
+        <li>Comedia</li>
+        <li>Suspenso</li>
+        <li>Ciencia Ficcion</li>
+        <li>Terror</li>
+        <li>Drama</li>
+        <li>Animacion</li>
+        <li>Familiar</li>
+        <li>Crimen</li>
+        <li>Thriller</li>
+        <li>Aventura</li>
+        <li>Romance</li>
+        <li>Fantasia</li>
       </ul>
-      <h3>Badge</h3>
+
       <BsCart color="purple" size="2rem" />
     </div>
   );
