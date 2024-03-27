@@ -1,7 +1,10 @@
+import "./NavBar.css";
+
 import { BsCart } from "react-icons/bs";
 
 import Badge from "@mui/material/Badge";
 import MailIcon from "@mui/icons-material/Mail";
+import { blue } from "@mui/material/colors";
 
 const CartWidget = () => {
   return (
@@ -14,7 +17,13 @@ const CartWidget = () => {
 
 export const Navbar = () => {
   return (
-    <div>
+    <div
+      style={{
+        width: "100%",
+        display: "flex",
+        marginTop: "10px",
+      }}
+    >
       <h3>
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThycDRtdCzjtxyuEonINsqR359FIHP-fixQA&usqp=CAU"
@@ -22,7 +31,17 @@ export const Navbar = () => {
         />
       </h3>
 
-      <ul>
+      <ul
+        style={{
+          width: "100%",
+          display: "flex",
+          textAlign: "center",
+          marginTop: "30px",
+          justifyContent: "center",
+          gap: "40px",
+          listStyle: "none",
+        }}
+      >
         <li>
           <a href="#">Todas</a>
         </li>
