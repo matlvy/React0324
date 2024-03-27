@@ -1,4 +1,17 @@
 import { BsCart } from "react-icons/bs";
+
+import Badge from "@mui/material/Badge";
+import MailIcon from "@mui/icons-material/Mail";
+
+const CartWidget = () => {
+  return (
+    <div>
+      <Badge badgeContent={4} color="success"></Badge>
+      <MailIcon color="action" />
+    </div>
+  );
+};
+
 export const Navbar = () => {
   return (
     <div>
@@ -8,6 +21,7 @@ export const Navbar = () => {
           alt=""
         />
       </h3>
+
       <ul>
         <li>
           <a href="#">Todas</a>
@@ -53,6 +67,7 @@ export const Navbar = () => {
         </li>
       </ul>
 
+      <CartWidget />
       <BsCart color="purple" size="2rem" />
     </div>
   );
