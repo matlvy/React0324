@@ -1,9 +1,17 @@
 import ProductCard from "../../common/productCard/ProductCard";
 
-const ItemListContainer = () => {
+const Greeting = () => {
   return (
     <div>
       <h1>Bienvenidos a Movie Store</h1>
+    </div>
+  );
+};
+
+const ItemListContainer = () => {
+  return (
+    <div>
+      <Greeting />
       <div
         style={{
           width: "100%",
@@ -14,17 +22,17 @@ const ItemListContainer = () => {
         }}
       >
         <ProductCard
-          precio={100}
+          precio={200}
           titulo={"titulo 1"}
           descripcion={"descripcion 1"}
         />
         <ProductCard
-          precio={200}
+          precio={300}
           titulo={"titulo 2"}
           descripcion={"descripcion 2"}
         />
         <ProductCard
-          precio={300}
+          precio={400}
           titulo={"titulo 3"}
           descripcion={"descripcion 3"}
         />
