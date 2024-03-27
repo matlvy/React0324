@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { Counter } from "./components/common/counter/Counter";
-import Navbar from "./components/layout/navBar/NavBar";
+import NavBar from "./components/layout/navBar/NavBar";
 import ItemListContainer from "./components/pages/itemListContainer/ItemListContainer";
 import Footer from "./components/layout/footer/Footer";
 
 function App() {
   return (
     <div>
-      <Navbar />
+      <NavBar />
       <ItemListContainer />
       <Footer />
       <Counter />
